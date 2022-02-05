@@ -15,8 +15,8 @@ function Navbar() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const [user, setUser] = useState();
-  const [password, setPassword] = useState();
+  const [user, setUser] = useState(false);
+  const [password, setPassword] = useState(false);
 
   const entra = () => {
     if (user === 'edu' && password === '123') {
